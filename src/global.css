@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:ital@1&display=swap");
+
+:root {
+  --fundo: #f9cfd3;
+  --fontcolor: #cd24b7;
+}
+
+body{
+  background-color: var(--fundo);
+  margin: 0;
+}

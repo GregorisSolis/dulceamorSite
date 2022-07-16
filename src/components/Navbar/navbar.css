@@ -1,0 +1,22 @@
+nav {
+  position: static;
+  height: 75px;
+  width: 100%;
+  overflow: hidden; 
+  box-shadow: 1px 1px 1px var(--fundo);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+nav figure{
+    margin: 0;
+}
+
+nav .logo img {
+  width: 60px;
+  height: 100%;
+  object-fit: cover;
+  margin: 0;
+}

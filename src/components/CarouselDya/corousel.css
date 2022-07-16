@@ -1,0 +1,35 @@
+.carousel-content {
+  margin: 3rem auto;
+  width: 80%;
+}
+
+.carousel-content img {
+  width: 280px;
+  height: 300px;
+  margin: 1rem;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.styles-module_carousel-arrow__26sRw {
+  display: none;
+}
+
+.mobil-carousel {
+  display: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .carousel-content {
+    width: 95%;
+    margin: 2rem auto;
+  }
+
+  .desktop-carousel{
+    display: none;
+}
+
+  .mobil-carousel {
+    display: block;
+  }
+}

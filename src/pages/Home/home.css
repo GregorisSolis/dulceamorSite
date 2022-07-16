@@ -1,0 +1,62 @@
+.home {
+  padding-top: 1rem;
+}
+
+.text_welcome {
+  text-align: center;
+}
+
+.text_welcome h1,
+.text_welcome p,
+.text_pedidos {
+  color: #cd24b7;
+  text-transform: uppercase;
+  font-family: "Gentium Book Basic", serif;
+  font-weight: 100;
+}
+
+.home .text_welcome h1 {
+  margin: 1rem;
+  font-size: 2rem;
+}
+
+.home .text_welcome p {
+  font-size: 1rem;
+}
+
+.line-bottom {
+  width: 30%;
+  margin: auto;
+  border-bottom: 1px solid #cd24b7;
+}
+
+.section_itemMenu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+}
+
+.text_pedidos {
+  text-align: center;
+}
+
+.text_pedidos p{
+  margin: 4rem 0 .6rem 0;
+  font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .home .text_welcome h1 {
+    font-size: 1.8rem;
+  }
+
+  .home .text_welcome p {
+    font-size: 1rem;
+  }
+
+  .line-bottom {
+    width: 80%;
+  }
+}

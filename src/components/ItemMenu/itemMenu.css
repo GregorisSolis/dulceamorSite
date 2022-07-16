@@ -1,0 +1,36 @@
+.item-menu_content {
+  width: 380px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 15px;
+  margin: 0.5rem;
+  position: relative;
+  display: flex;
+}
+
+.item-menu_content img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.sahdowUP {
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.43);
+  display: none;
+  color: white;
+  font-size: 2.3rem;
+  transition: 1s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+}
+
+.sahdowUP:hover {
+  opacity: 1;
+}
