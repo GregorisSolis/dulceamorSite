@@ -1,13 +1,13 @@
 import './global.css'
 import { Navbar } from './components/Navbar'
-import { Home } from './pages/Home'
+import { Pya } from './pages/Pya'
 
 function App() {
 
   return (
     <div className="App">
         <Navbar />
-        <Home />
+        <Pya />
     </div>
   )
 }
