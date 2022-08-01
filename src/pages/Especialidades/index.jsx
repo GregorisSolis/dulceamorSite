@@ -1,16 +1,16 @@
 import { ItemProduct } from "../../components/ItemProduct";
-import { postresList } from "../../ArrayImages/ImagesPostres.js";
+import {especialidadesList} from '../../ArrayImages/IamgesEspecialidades.js'
 
-export function Pya() {
 
+export function Especialidades() {
   return (
     <div className=".content-product">
       <div className="title_product">
-        <h1>postres</h1>
+        <h1>Especialidades</h1>
       </div>
 
       <div className="list-product">
-        {postresList.map(item => (
+      {especialidadesList.map(item => (
           <ItemProduct
             key={item.ID}
             urlImg={item.URLImage}

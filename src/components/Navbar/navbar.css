@@ -20,3 +20,15 @@ nav .logo img {
   object-fit: cover;
   margin: 0;
 }
+
+nav .btnBack{
+    position: absolute;
+    right: 0;
+    width: 70px;
+    height: 70px;
+}
+
+nav .btnBack img{
+  width: 100%;
+  height: 100%;
+}

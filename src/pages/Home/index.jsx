@@ -26,9 +26,9 @@ export function Home() {
         />
         <ItemMenu
           image_url={sandwich_img}
-          name="Sandwich"
+          name="Antojitos"
           text_alt="sandwich dulce amor"
-          toLink="/sandwich"
+          toLink="/antojitos"
         />
         <ItemMenu
           image_url={lasagnas_img}
