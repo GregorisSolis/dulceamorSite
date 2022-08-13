@@ -1,12 +1,12 @@
 import "./home.css";
 import { ItemMenu } from "../../components/ItemMenu";
-import { CarouselDya } from "../../components/CarouselDya";
 
 //imagenes del menu
 import pya_limon_img from "../../assets/pya_limon.jpeg";
 import sandwich_img from "../../assets/sandwich_boton.jpeg";
 import lasagnas_img from "../../assets/lasagnas_boton.jpeg";
 import fitnes_img from "../../assets/fitnes_boton.jpeg";
+import { CarouselDya } from "../../components/CarouselDya";
 
 export function Home() {
   return (

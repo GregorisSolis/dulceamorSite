@@ -5,16 +5,27 @@
   --fontcolor: #cd24b7;
 }
 
-body{
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   background-color: var(--fundo);
   margin: 0;
 }
 
-.content-product{
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.content-product {
   width: 100%;
 }
 
-.title_product{
+.title_product {
   width: 80%;
   font-size: 1.5rem;
   text-align: center;
@@ -23,16 +34,14 @@ body{
   color: var(--fontcolor);
 }
 
-.list-product{
+.list-product {
   width: 80%;
   margin: 5% auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
 }
 
-.footer{
+.footer {
   background-color: #fff;
   width: 100%;
   height: 30px;
@@ -42,8 +51,14 @@ body{
   color: var(--fontcolor);
 }
 
-.footer a{
+.footer a {
   text-decoration: none;
   color: var(--fontcolor);
-  margin: .5rem;
+  margin: 0.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .list-product {
+    grid-template-columns: 1fr;
+  }
 }
