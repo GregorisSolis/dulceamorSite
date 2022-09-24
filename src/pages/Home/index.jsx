@@ -1,55 +1,32 @@
-import "./home.css";
-import { ItemMenu } from "../../components/ItemMenu";
+import { ItemCategory } from "@components/ItemCategory";
+import principal from "@assets/test.png";
+import antojitos from "@assets/antojitos.png";
+import breakfast from "@assets/breakfast.png";
+import pedido_personalizado from "@assets/pedidos.png";
 
-//imagenes del menu
-import pya_limon_img from "../../assets/pya_limon.jpeg";
-import sandwich_img from "../../assets/sandwich_boton.jpeg";
-import lasagnas_img from "../../assets/lasagnas_boton.jpeg";
-import fitnes_img from "../../assets/fitnes_boton.jpeg";
-import { CarouselDya } from "../../components/CarouselDya";
+import "./home.css";
 
 export function Home() {
   return (
     <div className="home">
-      <div className="text_welcome">
-        <h1>Bienvenidos a Dulce amor</h1>
-        <div className="line-bottom"></div>
-        <p>Escoge una de nuestras opciones</p>
+      <div className="content_picture">
+        <figure>
+          <img src={principal} alt="banner dulce amor" />
+        </figure>
       </div>
-
-      <div className="section_itemMenu">
-        <ItemMenu
-          image_url={pya_limon_img}
-          name="Pya"
-          text_alt="pya de limon dulce amor"
-          toLink="/pya"
-        />
-        <ItemMenu
-          image_url={sandwich_img}
-          name="Antojitos"
-          text_alt="sandwich dulce amor"
-          toLink="/antojitos"
-        />
-        <ItemMenu
-          image_url={lasagnas_img}
-          name="Especialidades"
-          text_alt="lasagna - especialidades dulceamor"
-          toLink="/especialidades"
-        />
-        <ItemMenu
-          image_url={fitnes_img}
-          name="Fitnes"
-          text_alt="comida fitnes - dulce amor"
-          toLink="/fitnes"
-        />
+      <div className="content_home">
+        <div className="title_principal">
+          <div className="content_title">
+            <h1>bienvenidos a dulce amor</h1>
+            <p>si la vida no es dulce, endulzala con nosotros</p>
+          </div>
+        </div>
+        <div className="categoria">
+          <ItemCategory imgURL={pedido_personalizado} name="Pedidos" link='/pedidos-personalizados' />
+          <ItemCategory imgURL={breakfast} name="Pasapalos" link='/pasapalos' />
+          <ItemCategory imgURL={antojitos} name="Antojitos" link='/antojitos' />
+        </div>
       </div>
-
-      <div className="text_pedidos">
-        <p>PEDIDOS PERSONALIZADOS</p>
-        <div className="line-bottom"></div>
-      </div>
-
-      <CarouselDya />
     </div>
   );
 }

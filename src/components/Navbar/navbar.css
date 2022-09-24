@@ -1,34 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Passions+Conflict&family=Tangerine:wght@700&display=swap");
+
 nav {
   position: static;
-  height: 75px;
+  height: 4rem;
   width: 100%;
-  overflow: hidden; 
-  box-shadow: 1px 1px 1px var(--fundo);
+  overflow: hidden;
   display: flex;
   align-items: center;
-  justify-content: center;
-  background-color: white;
+  justify-content: space-around;
+  background-color: #fff;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index: 3;
 }
 
-nav figure{
-    margin: 0;
+nav .logo {
+  margin: 0;
+  height: 60px;
+  width: 60px;
+  display: flex;
+}
+
+.navbar p {
+  font-family: "Tangerine", cursive;
+  color: #cd24b7;
+  font-size: 1.9rem;
+  font-weight: 900;
 }
 
 nav .logo img {
-  width: 60px;
-  height: 100%;
-  object-fit: cover;
-  margin: 0;
-}
-
-nav .btnBack{
-    position: absolute;
-    right: 0;
-    width: 70px;
-    height: 70px;
-}
-
-nav .btnBack img{
   width: 100%;
   height: 100%;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+nav .btnBack {
+  width: 70px;
+  height: 70px;
+}
+
+nav .btnBack img {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar a {
+  text-decoration: none;
+  background-color: var(--fontcolor);
+  color: #fff;
+  width: 80px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-size: 1.3rem;
+  margin: 1rem 4rem 1rem 1rem;
+  transition: 1s;
+  opacity: 0.8;
+}
+
+.navbar a:hover {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 900px) {
+  nav {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .navbar a {
+    margin: 0;
+  }
 }

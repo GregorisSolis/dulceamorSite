@@ -1,12 +1,13 @@
-import clubHouse from '../assets/clubHouse.jpeg'
-import clubhouseFamiliar from '../assets/clubhouseFamiliar.jpeg'
-import arepas from '../assets/arepas.jpeg'
-import empanadas from '../assets/empanadas.jpeg'
+import antojitos1 from "@assets/antojitos/1.jpg";
+import antojitos2 from "@assets/antojitos/2.jpg";
+import antojitos3 from "@assets/antojitos/3.jpg";
+import brownie from "@assets/antojitos/brownie.jpeg";
+import galletas from "@assets/antojitos/galleticas.png";
 
 export const antojitosList = [
-    { name: 'club house - individual', value: '0,00', ID: 0, URLImage: clubHouse},
-    { name: 'club house - Familiar', value: '0,00', ID: 1, URLImage: clubhouseFamiliar},
-    { name: 'Arepas', value: '0,00', ID: 2, URLImage: arepas},
-    { name: 'Empanadas', value: '0,00', ID: 3, URLImage: empanadas},
-    { name: 'Empanadas', value: '0,00', ID: 3, URLImage: empanadas},
-]
+  { name: "Torta 3 leches", ID: 0, URLImage: antojitos1 },
+  { name: "Torta 3 leches", ID: 1, URLImage: antojitos3 },
+  { name: "Torta de chocolate", ID: 2, URLImage: antojitos2 },
+  { name: "brownie", ID: 3, URLImage: brownie },
+  { name: "Galletas", ID: 4, URLImage: galletas },
+];

@@ -1,8 +1,8 @@
-import './global.css'
-import { Navbar } from './components/Navbar'
+import { Navbar } from '@components/Navbar'
 import {RoutesApp} from './routers'
-import { Button } from './components/Button'
-import { Footer } from './components/Footer'
+import { Button } from '@components/Button'
+import { Footer } from '@components/Footer'
+import './global.css'
 
 function App() {
 

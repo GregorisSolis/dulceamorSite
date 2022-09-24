@@ -8,7 +8,6 @@ export function ItemProduct(props){
             </div>
             <div className='description'>
                 <h2>{props.name}</h2>
-                <p>$ {props.price}</p>
             </div>
         </div>
     )

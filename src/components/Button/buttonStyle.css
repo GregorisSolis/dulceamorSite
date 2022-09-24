@@ -1,12 +1,11 @@
 .buttonAction{
     position: fixed;
-    height: 70px;
-    width: 70px;
+    height: 60px;
+    width: 60px;
     border-radius: 100%;
     right: 0;
     bottom: 0;
     margin: .8rem;
-    background-color: #fff;
     border: none;
     z-index: 100;
 }
