@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Passions+Conflict&family=Tangerine:wght@700&display=swap");
+
+:root {
+  --pink-primary: #f9cfd3;
+  --pink-second: #f7b2b9;
+  --pink-dark: #cd24b7;
+  --white: #fff;
+  --black-100: rgba(0, 0, 0, 0.1);
+  --black-200: rgba(0, 0, 0, 0.2);
+  --black-400: rgba(0, 0, 0, 0.4);
+}

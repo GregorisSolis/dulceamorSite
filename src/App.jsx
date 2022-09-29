@@ -1,8 +1,9 @@
 import { Navbar } from '@components/Navbar'
-import {RoutesApp} from './routers'
 import { Button } from '@components/Button'
 import { Footer } from '@components/Footer'
-import './global.css'
+import {RoutesApp} from './routers'
+import '@styles/global.css'
+import '@styles/vars.css'
 
 function App() {
 

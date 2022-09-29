@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Passions+Conflict&family=Tangerine:wght@700&display=swap");
-
 nav {
   position: static;
   height: 4rem;
@@ -8,8 +6,8 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: #fff;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  background-color: var(--white);
+  box-shadow: 2px 2px 2px var(--black-200);
   position: relative;
   z-index: 3;
 }
@@ -23,7 +21,7 @@ nav .logo {
 
 .navbar p {
   font-family: "Tangerine", cursive;
-  color: #cd24b7;
+  color: var(--pink-dark);
   font-size: 1.9rem;
   font-weight: 900;
 }
@@ -47,8 +45,8 @@ nav .btnBack img {
 
 .navbar a {
   text-decoration: none;
-  background-color: var(--fontcolor);
-  color: #fff;
+  background-color: var(--pink-dark);
+  color: var(--white);
   width: 80px;
   height: 40px;
   display: flex;
