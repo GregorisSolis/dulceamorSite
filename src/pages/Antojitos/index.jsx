@@ -3,7 +3,7 @@ import {antojitosList} from '../../ArrayImages/ImagesAntojistos'
 
 export function Antojitos() {
   return (
-    <div className=".content-product">
+    <div className="content-product">
       <div className="title_product">
         <h1>Antojitos</h1>
       </div>
