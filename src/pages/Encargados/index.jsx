@@ -4,7 +4,7 @@ import {pedidos} from '../../ArrayImages/IamgesPedidosPersonalizados.js'
 
 export function Encargados() {
   return (
-    <div className=".content-product">
+    <div className="content-product">
       <div className="title_product">
         <h1>Pedidos personalizados</h1>
       </div>

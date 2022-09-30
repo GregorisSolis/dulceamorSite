@@ -1,5 +1,5 @@
 import { ItemCategory } from "@components/ItemCategory";
-import principal from "@assets/test.png";
+import principal from "@assets/background.png";
 import antojitos from "@assets/antojitos.png";
 import breakfast from "@assets/breakfast.png";
 import pedido_personalizado from "@assets/pedidos.png";

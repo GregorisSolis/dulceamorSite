@@ -3,7 +3,6 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--white);
   margin: 0;
 }
 
@@ -39,23 +38,6 @@ figure {
   justify-content: center;
 }
 
-.footer {
-  background-color: var(--pink-second);
-  width: 100%;
-  height: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--white);
-  z-index: 2;
-}
-
-.footer a {
-  text-decoration: none;
-  color: var(--white);
-  margin: 0.5rem;
-}
-
 @media only screen and (max-width: 1280px) {
   .list-product {
     width: 75%;
@@ -63,9 +45,13 @@ figure {
 }
 
 @media only screen and (max-width: 900px) {
-  .footer,
   nav {
     position: relative;
     z-index: 2;
+  }
+
+  .content-product {
+    background-color: #fff;
+    position: absolute;
   }
 }

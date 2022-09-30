@@ -1,4 +1,4 @@
-import { ItemProduct } from "../../components/ItemProduct";
+import { ItemProduct } from "@components/ItemProduct";
 import {antojitosList} from '../../ArrayImages/ImagesAntojistos'
 
 export function Antojitos() {

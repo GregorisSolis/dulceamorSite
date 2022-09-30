@@ -3,7 +3,7 @@ import { pasapalos } from '../../ArrayImages/ImagesPasapalos'
 
 export const Pasapalos = () => {
   return (
-    <div className=".content-product">
+    <div className="content-product">
       <div className="title_product">
         <h1>Pasapalos</h1>
       </div>
