@@ -1,7 +1,6 @@
 import pedido1 from "@assets/pedidos_personalizados/1.jpg";
 import pedido2 from "@assets/pedidos_personalizados/2.jpg";
 import pedido3 from "@assets/pedidos_personalizados/3.jpg";
-import pedido4 from "@assets/pedidos_personalizados/4.jpg";
 import pedido5 from "@assets/pedidos_personalizados/5.jpg";
 import pedido6 from "@assets/pedidos_personalizados/6.jpg";
 import pedido7 from "@assets/pedidos_personalizados/7.jpg";
@@ -19,29 +18,26 @@ import pedido18 from "@assets/pedidos_personalizados/18.jpg";
 import pedido19 from "@assets/pedidos_personalizados/19.jpg";
 import pedido20 from "@assets/pedidos_personalizados/20.jpg";
 import pedido21 from "@assets/pedidos_personalizados/21.jpg";
-import pedido22 from "@assets/pedidos_personalizados/22.jpg";
 
 export const pedidos = [
-  { name: "name", ID: 0, URLImage: pedido1 },
+  { name: "Chocolate", ID: 0, URLImage: pedido1 },
   { name: "name", ID: 1, URLImage: pedido2 },
-  { name: "name", ID: 2, URLImage: pedido3 },
-  { name: "name", ID: 3, URLImage: pedido4 },
-  { name: "name", ID: 4, URLImage: pedido5 },
-  { name: "name", ID: 5, URLImage: pedido6 },
-  { name: "name", ID: 6, URLImage: pedido7 },
-  { name: "name", ID: 7, URLImage: pedido8 },
-  { name: "name", ID: 8, URLImage: pedido9 },
-  { name: "name", ID: 9, URLImage: pedido10 },
-  { name: "name", ID: 10, URLImage: pedido11 },
-  { name: "name", ID: 11, URLImage: pedido12 },
-  { name: "name", ID: 12, URLImage: pedido13 },
-  { name: "name", ID: 13, URLImage: pedido14 },
-  { name: "name", ID: 14, URLImage: pedido15 },
-  { name: "name", ID: 15, URLImage: pedido16 },
-  { name: "name", ID: 16, URLImage: pedido17 },
-  { name: "name", ID: 17, URLImage: pedido18 },
-  { name: "name", ID: 18, URLImage: pedido19 },
-  { name: "name", ID: 19, URLImage: pedido20 },
-  { name: "name", ID: 20, URLImage: pedido21 },
-  { name: "name", ID: 21, URLImage: pedido22 },
+  { name: "Box ponquesito", ID: 2, URLImage: pedido3 },
+  { name: "Rosa", ID: 3, URLImage: pedido5 },
+  { name: "Infantil", ID: 4, URLImage: pedido6 },
+  { name: "Graduación", ID: 5, URLImage: pedido7 },
+  { name: "Mariposa", ID: 6, URLImage: pedido8 },
+  { name: "Amor", ID: 7, URLImage: pedido9 },
+  { name: "Especial", ID: 8, URLImage: pedido10 },
+  { name: "Graduación", ID: 9, URLImage: pedido11 },
+  { name: "Barbie", ID: 10, URLImage: pedido12 },
+  { name: "Amarella", ID: 11, URLImage: pedido13 },
+  { name: "Aniversario", ID: 12, URLImage: pedido14 },
+  { name: "name", ID: 13, URLImage: pedido15 },
+  { name: "Chocolate", ID: 14, URLImage: pedido16 },
+  { name: "Pink", ID: 15, URLImage: pedido17 },
+  { name: "Infantil", ID: 16, URLImage: pedido18 },
+  { name: "Chiqui", ID: 17, URLImage: pedido19 },
+  { name: "Rositas", ID: 18, URLImage: pedido20 },
+  { name: "Happy", ID: 19, URLImage: pedido21 },
 ];
